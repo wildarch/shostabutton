@@ -1,0 +1,11 @@
+applescript==0.0.1
+decorator==4.3.0
+detect==0.0.2
+only==1.0.3
+pgrep==0.0.0
+psutil==5.4.8
+public==2.0.1
+python-vlc==3.0.4106
+RPi.GPIO==0.6.4
+runcmd==0.0.3
+temp==1.0.2
