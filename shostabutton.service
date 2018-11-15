@@ -1,0 +1,13 @@
+[Unit]
+Description=Escalation button service
+After=sound.target
+
+[Service]
+Type=simple
+User=daan
+WorkingDirectory=/home/daan/shostabutton
+ExecStart=/usr/bin/python3 sound_button_triggered.py
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
